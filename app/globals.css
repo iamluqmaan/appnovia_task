@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+div.home{
+  background: url('../public/assets/images/main-home-rev-5.jpg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position:bottom;
+}
+div.first{
+  background: url('../public/assets/images/firstImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 22vw;
+  object-fit: cover;
+  object-position:bottom;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+div.second{
+  background: url('../public/assets/images/secondImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 22vw;
+  object-fit: cover;
+  object-position:bottom;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+div.third{
+  background: url('../public/assets/images/thirdImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 22vw;
+  object-fit: cover;
+  object-position:bottom;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+div.fourth{
+  background: url('../public/assets/images/fourthImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 22vw;
+  object-fit: cover;
+  object-position:bottom;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+div.fifth{
+  background: url('../public/assets/images/fifthImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 22vw;
+  object-fit: cover;
+  object-position:bottom;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+div.sixth{
+  background: url('../public/assets/images/secondImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 22vw;
+  object-fit: cover;
+  object-position:bottom;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+div.seventh{
+  background: url('../public/assets/images/seventhImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 22vw;
+  object-fit: cover;
+  object-position:bottom;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+div.eighth{
+  background: url('../public/assets/images/eighthImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: bottom;
+  max-width: 100%;
+  border: 1px solid gray;
+}
+div.man{
+  background: url('../public/assets/images/man.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: bottom;
+}
+div.woman{
+  background: url('../public/assets/images/woman.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: bottom;
+}
+div.facing{
+  background: url('../public/assets/images/facing.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: bottom;
+}
+div.blogFirst{
+  background: url('../public/assets/images/jacket.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 30vw;
+  object-fit: cover;
+  object-position:center;
+  max-width: 100%;
+}
+div.blogSecond{
+  background: url('../public/assets/images/twin.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  height: 30vw;
+  object-fit: cover;
+  object-position:center;
+  max-width: 100%;
+}
+div.blogThird{
+  background: url('../public/assets/images/faceUp.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  height: 30vw;
+  object-fit: cover;
+  object-position:bottom;
+  max-width: 100%;
+}
+div.signUp{
+  background: url('../public/assets/images/mail.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+span.mail input::placeholder{
+  color: white;
+}
+
+@media screen and (min-width: 768px){
+  div.footer{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr .8fr 1fr 1.5fr;
+    
+  }
+  div.facing{
+    background-size: cover;
+  }
+  input::placeholder{
+    color: black;
+  }
+  div.blogSecond{
+    height: 35vw;
+  }
+}
